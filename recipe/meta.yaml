@@ -1,19 +1,19 @@
 {% set name = "omfit_classes" %}
-{% set version = "3.2021.12.2" %}
+{% set version = "3.2021.15.2" %}
 
 package:
-  name: "{{ name|lower }}"
-  version: "{{ version }}"
+  name: {{ name|lower }}
+  version: {{ version }}
 
 
 source:
-  url: "https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz"
-  sha256: f1a78b03c8514d7d9d53d8f09532554d23ea4ac1577faa33cfd2768542c20052
+  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
+  sha256: a6c6c8cc28db423e69ff6cfbf55a59476ec446494174b9532dd1c724c2f971d0
 
 build:
   noarch: python
   number: 0
-  script: "{{ PYTHON }} -m pip install . -vv"
+  script: {{ PYTHON }} -m pip install . -vv
 
 requirements:
   host:
@@ -27,12 +27,12 @@ test:
     - omfit_classes
 
 about:
-  home: "https://omfit.io"
+  home: https://omfit.io
   license: MIT
   license_family: MIT
   license_file: LICENSE.txt
-  summary: "Classes of OMFIT (One Modeling Framework For Integrated Tasks)"
-  doc_url: https://omfit.io 
+  summary: Classes of OMFIT (One Modeling Framework For Integrated Tasks)
+  doc_url: https://omfit.io
   dev_url: https://github.com/gafusion/OMFIT-source
 
 extra:

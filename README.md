@@ -1,11 +1,11 @@
-About omfit_classes
-===================
+About omfit_classes-feedstock
+=============================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/omfit_classes-feedstock/blob/main/LICENSE.txt)
 
 Home: https://omfit.io
 
 Package license: MIT
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/omfit_classes-feedstock/blob/main/LICENSE.txt)
 
 Summary: Classes of OMFIT (One Modeling Framework For Integrated Tasks)
 

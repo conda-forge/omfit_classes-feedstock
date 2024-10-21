@@ -1,5 +1,5 @@
 {% set name = "omfit_classes" %}
-{% set version = "3.2024.39.2" %}
+{% set version = "3.2024.42.2" %}
 
 package:
   name: {{ name|lower }}
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 5721b5823a11de23a1a9a62f2e3573846c90cb96595de71790c3021268a49e5e
+  sha256: 2674030258f56be97c39e10ecdbf73115270491b0ba6a5fa1d61041df590ca32
 
 build:
   noarch: python
